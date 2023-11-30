@@ -1,5 +1,5 @@
 ---
-title: AI CREATIVES THAILAND
+title: Suwan Inphaeng
 description: พื้นที่โชว์งานตามจินตนาการของคุณกับ AI ART ไหนมาโชว์กัน
 author: Suwan Inphaeng
 date: 2023-11-30T15:57:05.382Z
