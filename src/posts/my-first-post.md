@@ -1,10 +1,9 @@
 ---
-title: This is my first post
-description: Capitalize on low hanging fruit to identify a ballpark value added
-  activity to beta test. Override the digital divide with additional
-  clickthroughs from DevOps.
-author: Surjith S M
-date: 2020-09-01
+title: Your site CMS is now fully configured and ready for login!
+description: If you left your site registration open, or for return visits after
+  confirming an email invitation, access your site's CMS at yoursite.com/admin/.
+author: Decap CMS
+date: 2023-11-30T02:24:56.624Z
 tags:
   - left
   - center
