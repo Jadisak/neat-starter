@@ -1,5 +1,5 @@
 ---
-title: https://th.bing.com/th/id/OIG.8K5d0UIycDI6nyKV3MOh?pid=ImgGn
+title: Decap CMS
 description: If you left your site registration open, or for return visits after
   confirming an email invitation, access your site's CMS at yoursite.com/admin/.
 author: Decap CMS
