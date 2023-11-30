@@ -3,13 +3,8 @@
     {% if quicklinks.links %}
 
         {% for item in quicklinks.links %}
-            <!-- <a href="{{item.url}}" target="_blank" class="p-5 border-2 rounded-xl bg-white/70 border-white hover:border-purple-700">
-                <h3>{{item.title}}
-                    →</h3>
-                <p>{{item.desc}}</p>
-            </a> -->
             <div class="border-2 rounded-lg overflow-hidden relative">
-                <div class="w-full h-full bottom-0 opacity-0 hover:opacity-100 delay-75 duration-500 bg-gradient-to-t from-red-900 z-20 absolute text-white font-semibold text-center flex items-end p-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+                <div class="w-full h-1/2 bottom-0 opacity-0 hover:opacity-100 delay-75 duration-500 bg-gradient-to-t from-red-900 z-20 absolute text-white font-semibold text-center flex items-end p-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
                 <img class="w-full hover:scale-110 duration-300" src="{{item.img}}" alt="">
             </div>
         {% endfor %}
