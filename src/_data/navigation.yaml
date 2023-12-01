@@ -1,10 +1,9 @@
----
 items:
   - text: Home
-    url: "/"
-  - text: Services
-    url: "/services"
-  - text: About
-    url: "/about"
+    url: /
   - text: Ai-Works
-    url: "/works"
+    url: /works
+  - text: Services
+    url: /services
+  - text: About
+    url: /about
