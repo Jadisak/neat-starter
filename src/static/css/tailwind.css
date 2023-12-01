@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300;400;500;600;700&family=Poppins:wght@300;500;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /*Your Custom CSS Goes here*/
+* {
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+}
 
 h1 {
   @apply text-4xl tracking-tighter mb-3 text-center lg:text-5xl;

@@ -2,12 +2,13 @@
 layout: services
 ---
 
-<section class="mt-20">
+<section class="mt-6 p-4">
     {% set postslist = collections.post %}
 
     {% for post in postslist | reverse %}
-        <article class="my-8">
-            <h2 class="font-bold text-3xl text-amber-700 mb-2">
+        <article class="my-0 border-t p-4">
+
+            <h2 class="font-medium text-3xl text-red-500 mb-2">
                 <a href="{{ post.url | url }}">
                     {% if post.data.title %}
                         {{ post.data.title }}
@@ -16,22 +17,24 @@ layout: services
                     {% endif %}
                 </a>
             </h2>
-            <p class="text-base leading-6 text-gray-500 mb-3">
+
+            <p class="text-base leading-6 text-gray-100 mb-3">
                 <time>
                     {{ post.date | readableDate }}
-                    by
+                    <a class="text-amber-400">by</a>
                     <a>{{ post.data.author }}</a>
 
                 </time>
             </p>
+
             {% if post.data.description %}
-                <p class="text-lg text-gray-500 mb-3">
+                <p class="text-lg text-gray-900 mb-3">
                     {{ post.data.description }}
                 </p>
             {% endif %}
 
             <p>
-                <a href="{{ post.url | url }}" class="text-amber-500 font-bold text-lg">
+                <a href="{{ post.url | url }}" class="text-red-500 font-normal text-lg">
                     Read more →
                 </a>
             </p>

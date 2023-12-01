@@ -7,7 +7,7 @@ layout: about
 
     {% for post in postslist | reverse %}
         <article class="my-8">
-            <h2 class="font-bold text-3xl text-amber-700 mb-2">
+            <h2 class="font-bold text-xl text-red-500 mb-2">
                 <a href="{{ post.url | url }}">
                     {% if post.data.title %}
                         {{ post.data.title }}
@@ -19,9 +19,8 @@ layout: about
             <p class="text-base leading-6 text-gray-500 mb-3">
                 <time>
                     {{ post.date | readableDate }}
-                    by
+                    <a href="#" class="text-amber-500"> by </a>
                     <a>{{ post.data.author }}</a>
-
                 </time>
             </p>
             {% if post.data.description %}
